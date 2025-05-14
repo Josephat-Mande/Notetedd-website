@@ -45,9 +45,9 @@ const Testimonials = () => {
       color: "from-blue-600 to-cyan-500"
     },
     {
-      name: "Priya Patel",
+      name: "Joe",
       role: "Business Student & Part-time Worker",
-      image: "/api/placeholder/100/100",
+      image: "/joee.jpg",
       text: "Working part-time while studying was overwhelming until I found NoteTedd. Now I can convert lectures to audio and study during my shifts. The smart organization feature helps me quickly find specific topics during revision.",
       stars: 5,
       color: "from-green-600 to-emerald-500"

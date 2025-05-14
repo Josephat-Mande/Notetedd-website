@@ -16,6 +16,7 @@ const Navbar = ({ scrollY }) => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex items-center justify-between">
           {/* Logo */}
+          <img src="/tedd-icon.jpg" alt="logo" className="h-20 w-20 rounded-4xl object-cover bg-transparent"/>
           <div className="flex items-center">
             <BookOpen className="h-8 w-8 text-purple-400" />
             <span className="ml-2 text-2xl font-bold bg-gradient-to-r from-purple-400 via-pink-300 to-indigo-400 bg-clip-text text-transparent">
@@ -32,9 +33,9 @@ const Navbar = ({ scrollY }) => {
             <a href="#pricing" className="text-gray-300 hover:text-white transition-colors">Pricing</a>
             <a href="#faq" className="text-gray-300 hover:text-white transition-colors">FAQ</a>
             
-            <div className="relative group">
+            {/* <div className="relative group">
               <button className="flex items-center text-gray-300 hover:text-white transition-colors">
-                Resources <ChevronDown className="ml-1 h-4 w-4" />
+                Resources <ChevronDown className="ml-1 h-4 w-4" onClick={() => { alert("coming soon"); setTimeout(() => {}, 3000); }}/>
               </button>
               <div className="absolute right-0 mt-2 w-48 bg-indigo-950 rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform group-hover:translate-y-0 translate-y-1">
                 <div className="py-1 rounded-md bg-gray-900 shadow-xs">
@@ -43,7 +44,7 @@ const Navbar = ({ scrollY }) => {
                   <a href="#" className="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-white">Blog</a>
                 </div>
               </div>
-            </div>
+            </div> */}
           </nav>
 
           {/* CTA Button */}

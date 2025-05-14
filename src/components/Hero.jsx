@@ -44,9 +44,11 @@ const Hero = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="bg-gradient-to-r from-purple-500 to-indigo-600 hover:from-purple-600 hover:to-indigo-700 text-white font-semibold py-3 px-6 rounded-xl shadow-lg transform transition-all hover:scale-105 hover:shadow-xl flex items-center justify-center">
+              <a href="#contact">
+                <button className="bg-gradient-to-r from-purple-500 to-indigo-600 hover:from-purple-600 hover:to-indigo-700 text-white font-semibold py-3 px-6 rounded-xl shadow-lg transform transition-all hover:scale-105 hover:shadow-xl flex items-center justify-center">
                 Get Early Access
-              </button>
+                </button>
+              </a>
               <button className="border border-purple-500/50 bg-purple-900/20 hover:bg-purple-800/30 backdrop-blur-sm text-white font-semibold py-3 px-6 rounded-xl transition-all hover:shadow-lg flex items-center justify-center">
                 Watch Demo <span className="ml-2 rounded-full bg-white/20 p-1">▶</span>
               </button>
