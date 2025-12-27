@@ -11,6 +11,9 @@ import CTA from './components/CTA';
 import Footer from './components/Footer';
 import HowItWorks from './components/Howitworks';
 import DemoShowcase from './components/DemoShowcase';
+import Contact from './components/Contact';
+import ProgressSoFar from './components/Progress';
+import DownloadPage from './components/DownloadPage';
 
 function App() {
   const [scrollY, setScrollY] = useState(0);
@@ -53,10 +56,12 @@ function App() {
         <Solution />
         <Features />
         <HowItWorks />
+        <ProgressSoFar />
         {/* <DemoShowcase /> */}
         <Testimonials />
-        <Pricing />
-        <FAQ />
+        {/* <Pricing /> */}
+        {/* <Contact /> */}
+        {/* <FAQ /> */}
         <CTA />
         <Footer />
       </div>
