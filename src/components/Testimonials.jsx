@@ -285,7 +285,7 @@ const Testimonials = () => {
         </div>
       </div>
     </section>
-    <Footer />
+    
     </>
     </>
   );

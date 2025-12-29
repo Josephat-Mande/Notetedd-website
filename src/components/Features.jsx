@@ -245,7 +245,7 @@ const Features = () => {
       </div>
     </section>
     </>
-    <Footer/>
+    
     </>
   );
 };
