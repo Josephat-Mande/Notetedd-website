@@ -234,7 +234,7 @@ If You're Under 18:
 - Parents can contact us to review or delete their child's information
 
 If We Discover:
-- If we learn we've collected data from a child under 13, we will delete it promptly
+- If we learn we've collected data from a minor under 13, we will delete it promptly
 - Parents who believe we have information from their child should contact us immediately
 
 Educational Institution Use:
