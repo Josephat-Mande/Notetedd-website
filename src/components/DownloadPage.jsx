@@ -17,6 +17,7 @@ import {
 import Navbar from './Navbar';
 import Footer from './Footer';
 
+
 const DownloadPage = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [selectedPlatform, setSelectedPlatform] = useState('android');
@@ -55,7 +56,8 @@ const DownloadPage = () => {
       size: '113 MB',
       requirements: 'Android 8.0 or higher',
       downloadLink: './notetedd-android.apk',
-      storeLink: 'https://play.google.com/store/apps/details?id=com.notetedd'
+      storeLink:null
+      //  'https://play.google.com/store/apps/details?id=com.notetedd'
     },
     {
       id: 'ios',
@@ -66,7 +68,8 @@ const DownloadPage = () => {
       size: '52 MB',
       requirements: 'iOS 13.0 or higher',
       downloadLink: '/downloads/notetedd-ios.ipa',
-      storeLink: 'https://apps.apple.com/app/notetedd'
+      storeLink: null 
+      // 'https://apps.apple.com/app/notetedd'
     },
     {
       id: 'web',
@@ -181,6 +184,7 @@ const DownloadPage = () => {
   const handleDownload = (platform) => {
   setDownloadStarted(true);
   setTimeout(() => setDownloadStarted(false), 3000);
+
   
   //  temporary anchor element to trigger download
   const link = document.createElement('a');
@@ -350,7 +354,7 @@ const DownloadPage = () => {
                   className="w-full font-bold py-4 px-6 rounded-xl transition-all duration-300 flex items-center justify-center shadow-lg hover:shadow-xl text-white hover:scale-105"
                   style={{ background: `linear-gradient(135deg, ${currentPlatform.color} 0%, ${currentPlatform.color}CC 100%)` }}
                 >
-                  <Sparkles className="h-5 w-5 mr-2" />
+                  
                   Launch Web App
                 </a>
               ) : (
